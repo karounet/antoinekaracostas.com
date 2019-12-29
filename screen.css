@@ -1,0 +1,705 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	font-size:90%;
+	font-family:verdana;
+}
+a {
+	text-decoration:none;
+	color:black;
+}
+a:hover {
+	text-decoration:none;
+}
+
+li {
+list-style:none;
+}
+
+h1 {
+	margin-top:0px;
+	font-weight:bold;
+	font-size:20px;
+	}
+h3 {
+	margin-top:0px;
+	font-weight:bold;
+	font-size:20px;
+	text-align: center;
+	line-height: 32px;
+	letter-spacing: 10px;
+}
+p {
+	font-size:12px;
+}
+/* Header styles */
+#header {
+	margin:40px 0px 15px 0px;
+	clear:both;
+	width:100%;
+}
+#headinside {
+	width:940px;
+	margin:0 auto;
+}
+
+
+
+/* column container */
+.colmask {
+	width:940px;
+	margin:0 auto;
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+
+}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col-long {
+	overflow:hidden;
+}
+.col3,
+.col3petit,
+.col4,
+.col5,
+.col-long {
+	padding:30px;
+	margin-left:10px;
+}
+
+/* 2 Column (left menu) settings */
+.leftmenu {
+	background:#fff;		/* right column background colour */
+}
+.leftmenu .colleft {
+/* 	background:#f4f4f4;	left column background colour */
+}
+.leftmenu .col1 {
+	margin-right:10px;
+	float: left;
+	width: 20%;
+	background:white;
+}
+.leftmenu .col2 {
+	background:white;
+	float:left;
+	width:75%;			/* left column content width (column width minus left and right padding) */
+
+}
+.leftmenu .col3 {
+	background:#f4f4f4;
+	float:left;
+	width:20%;			/* left column content width (column width minus left and right padding) */
+
+}
+.leftmenu .col3petit {
+	background:#f4f4f4;
+	float:left;
+	width:10%;			/* left column content width (column width minus left and right padding) */
+
+}
+.leftmenu .col4 {
+	background:#f4f4f4;
+	float:left;
+	height:150px;
+	width:40%;			/* left column content width (column width minus left and right padding) */
+
+}
+.leftmenu .col5 {
+	margin-top:10px;
+	background:#f4f4f4;
+	float:left;
+	width:40%;
+}
+
+.leftmenu .col-long {
+	background:#f4f4f4;
+	float:right;
+	width:660px;
+	margin-bottom:10px;
+}
+
+
+/* Footer styles */
+#footer {
+	margin-top:20px;
+	margin-bottom:15px;
+	font-size:10px;
+	text-transform:uppercase;
+	clear:both;
+	width:100%;
+
+}
+#footinside {
+		padding-top:10px;
+		border-top:1px solid #000;
+		width:940px;
+		margin:0 auto;
+	
+}
+
+#lmenu {
+		margin-top:0px;
+		padding:0;
+		text-align: right;
+		line-height: 26px;
+		letter-spacing: 7px;
+		text-transform: uppercase;
+		font-family: verdana;
+}
+
+#lmenu li li {
+  margin-bottom: 0px;
+  transition: all .4s;
+  text-align: right;
+  line-height: 24px;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+#lmenu li:hover li {
+  max-height: 15em;
+}
+
+.selected {
+	padding: 1px 0px 1px 5px;
+	
+	color:white;
+background:black;
+}
+
+
+
+#lmenu a:hover {
+	padding: 1px 0px 1px 5px;
+	color:white;
+	background:black;
+	text-decoration:none;
+}
+
+
+
+#social {
+width: 97px;
+float: right;
+}
+
+.home {
+	margin-top:7px;
+	margin-left:14px;
+	max-width:100%;
+}
+
+
+/* -------------------------------------- */
+/* ------CONCERT HORIZONTAL SCROLL------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+
+/* column container */
+.colmask-proj {
+	width:1940px;
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+
+.col1-proj {
+	margin-right: 10px;
+margin-left: 151px;
+float: left;
+width: 200px;
+}
+
+.col3-proj {
+	margin-left:10px;
+}
+
+.col3-text {
+	margin-top:15px;
+	background:#f4f4f4;
+	padding:30px;
+}
+
+.leftmenu .col3-proj {
+	float:left;
+	width:250px;			/* left column content width (column width minus left and right padding) */
+	height:365px;
+
+}
+
+
+
+
+.leftmenu .col-long2 {
+
+	margin-bottom:10px;
+}
+
+.col-long2-texte {
+	width:400px;
+	float:right;
+	background:#f4f4f4;
+	padding:30px;
+}
+
+/* -------------------------------------- */
+/* ------PROJETS ------------------------ */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+#text-proj {
+	float:left;
+	width:38%;
+}
+
+#text-proj a {
+	font-size:11px;
+}
+
+#text-proj a:hover {
+text-decoration:underline;
+}
+
+#video-proj {
+	float:right;
+	width:58%;
+}
+
+.itajusti {
+	text-align:justify;
+	font-style:italic;
+}
+
+
+/* -------------------------------------- */
+/* ------NEWS---------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+.news {
+	margin:0;
+	font-size:14px;
+	font-style:italic;
+	font-family:courier;
+}
+
+
+.date-news {
+	text-align:right;
+	width:1OO%;
+	letter-spacing:3px;
+	margin-top:-2px;
+	float:right;
+	
+}
+.leftmenu .news-long {
+	width:94%;
+	background:#f4f4f4;
+	float:right;
+
+	
+	
+}
+
+#notenews {
+	margin-right: 47px;
+	float: right;
+	width: 649px;
+	margin-bottom: 20px;
+	
+	
+}
+
+.colnews {
+	padding:20px;
+}
+
+/* -------------------------------------- */
+/* ------BIO---- ------------------------ */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+#notebio {
+	margin-right: 47px;
+	float: right;
+	width: 649px;
+	margin-bottom: 20px;
+}
+
+.bio-long {
+	width:94%;
+	background:#f4f4f4;
+	float:right;
+    padding:20px;	
+}
+
+.bio-long p{
+	margin:0;
+	text-align:justify;
+}
+
+.bio-long img {
+	margin-left:15px;
+	float:right;
+}
+
+.bio-titre {
+	letter-spacing:3px;
+	float:left;	
+}
+
+.bio-titre p {
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+}
+
+/* ------DISCO------------- */
+
+#notedisco {
+	margin-right: 47px;
+	float: right;
+	width: 649px;
+	margin-bottom: 20px;
+}
+
+.disco-long {
+	width:94%;
+	float:right;
+    padding:20px;	
+}
+
+
+.disco-long a{
+	font-size: 12px;
+	font-weight: bold;
+	margin:0;
+	height: 180px;
+  	width: 203px;
+  	text-align: center;
+  	float: left;
+}
+
+.disco-long img {
+	border: solid 1px black;
+	margin-bottom: 10px;
+}
+
+.disco-long a:hover img {
+	border: dotted 1px black;
+	margin-bottom: 10px;
+}
+
+.disco-titre {
+	letter-spacing:3px;
+	text-align: center;
+}
+
+.disco-titre p {
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+}
+
+/* ------TECH------------- */
+
+#notetech {
+	margin-right: 47px;
+	float: right;
+	width: 649px;
+	margin-bottom: 20px;
+}
+
+.tech-long {
+	width:94%;
+	background:#f4f4f4;
+	float:right;
+    padding:20px;	
+}
+
+.tech-long p{
+	margin:0;
+	text-align:justify;
+}
+
+.tech-long a{
+	font-weight: bold;
+}
+
+.tech-long img {
+	margin-left:15px;
+	float:right;
+}
+
+.tech-titre {
+	text-transform: uppercase;
+	letter-spacing:3px;
+	float: left;
+}
+
+.tech-titre p {
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+}
+
+/* -------------------------------------- */
+/* ------CONCERTS------------------------ */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+#notegig {
+	float: right;
+	width: 649px;
+	margin-right: 76px;
+	margin-bottom: 50px;
+}
+
+.gig-long {
+	margin:0 auto;
+	width:80%;
+	border: 2px solid black;
+	padding:30px;
+}
+
+.gig-long p{
+	line-height:23px;
+	font-family:courier;
+	text-align:center;
+	font-size:14px;
+}
+
+
+.gig-titre {
+	letter-spacing:3px;
+	width:80%;
+	margin:0 auto;
+}
+
+.gig-titre p {
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+
+
+.break {
+	margin:0 auto;
+	width:50%;
+	border-bottom: dotted 1px black;
+}
+
+
+
+/* -------------------------------------- */
+/* ------CONTACT ------------------------ */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+#notecontact {
+	float: right;
+	width: 649px;
+	margin-right: 76px;
+	margin-bottom: 50px;
+}
+
+.contact-long {
+	margin:0 auto;
+	width:50%;
+	border: 2px solid black;
+	padding:30px;
+}
+
+.contact-long p{
+	line-height:23px;
+	font-family:courier;
+	text-align:center;
+	font-size:17px;
+}
+
+.contact-long a:hover {
+	border-bottom: 2px solid black;
+	
+}
+
+.contact-titre {
+	letter-spacing:3px;
+	width:80%;
+	margin:0 auto;
+}
+
+.contact-titre p {
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+
+.contact-social {
+	letter-spacing:10px;
+	text-align:center;
+}
+
+
+/* -------------------------------------- */
+/* ------MEDIAS---- ------------------------ */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+#notemedias {
+	float: right;
+	width: 727px;
+	margin-bottom: 20px;
+	
+	
+}
+
+.medias-long {
+	float:right;	
+}
+
+
+
+.medias-titre {
+	letter-spacing:3px;
+	float:left;	
+}
+
+.medias-titre p {
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:5px;
+}
+
+.medias-video {
+	width:48%;
+	float:left;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:25px;
+	text-transform:uppercase;
+}
+
+.medias-video p{
+	margin-top:5px;
+
+}
+
+.marginright {
+	margin-right:10px;
+}
+
+.medias-video-first {
+	width:99%;
+	float:left;
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	margin-bottom:25px;
+	text-transform:uppercase;
+}
+
+.medias-video-first p{
+	margin-top:5px;
+
+}
+
+
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box; }
+.column,
+.columns {
+  padding: 5px;
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns          { margin-left: 8.66666666667%; }
+  .offset-by-two.column,
+  .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .offset-by-three.column,
+  .offset-by-three.columns        { margin-left: 26%;            }
+  .offset-by-four.column,
+  .offset-by-four.columns         { margin-left: 34.6666666667%; }
+  .offset-by-five.column,
+  .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .offset-by-six.column,
+  .offset-by-six.columns          { margin-left: 52%;            }
+  .offset-by-seven.column,
+  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+  .offset-by-eight.column,
+  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+  .offset-by-nine.column,
+  .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .offset-by-ten.column,
+  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
